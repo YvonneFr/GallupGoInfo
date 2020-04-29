@@ -1,0 +1,165 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+	<div class="accordioncontainer">
+		<div class="container flex-row" id="logorad">
+			<img src="~/img/kantar_150.jpg" id="kantarlogo" alt="Kantar"><img src="~/img/ng_280.jpg" id="nglogo" alt="Norsk Gallup">
+		</div>
+		<h2 id="gotitle">Vil du delta i Seerundersøkelsen for Norge?</h2>
+		<h4>Da er du med og påvirker programtilbudet for norske TV-kanaler og mediehus. I tillegg får du belønning.</h4>
+		<p class="description headerfont">Hvordan kan jeg delta?</p>
+		<img src="~/img/bilde1_800.jpg" alt="GallupGO" id="sofa">
+		<ul class="accordionul">
+			<li>Vi ringer deg og stiller noen spørsmål. Dersom du takker ja blir du og din husstand medlemmer i GallupGO-panelet. Alle i husstanden i alderen 10-79 år må delta i undersøkelsen.</li>
+			<li>Vi sender en bærbar måler, GallupGO, til hvert medlem i husstanden (10-79 år)</li>
+			<li>Dere tar med GallupGO gjennom dagen og lader den daglig</li>
+			<li>Dere samler poeng for all den tiden dere har GallupGo med</li>
+			<li>Dere bestemmer selv hvor lenge dere ønsker å delta</li>
+		</ul>
+
+		<div class="accordion">
+			<dl>
+				<dt><a class="accordionTitle" href="#">Hvordan foregår målingen?</a></dt>
+				<dd class="accordionItem accordionItemCollapsed">
+					<ul class="accordionul">
+						<li>GallupGO er en bærbar måler som fanger opp det du ser på TV og strømmer av TV-innhold</li>
+						<li>TV-seingen gjenkjennes ved at måleren identifiserer en ikke-hørbar lydkode som TV- selskapene og strømmeaktørene legger i sine sendinger</li>
+						<li>GallupGO kan ikke «høre» eller registrere samtaler eller andre lyder rundt deg, den mottar kun numeriske lydkoder</li>
+						<li>Det skal ikke kobles noe utstyr til TV-apparat, PC eller andre enheter</li>
+						<li>Dersom noen i husstanden ønsker å avslutte medlemskapet, må hele husstanden avslutte samtidig</li>
+						<li>GallupGO-panelet består av ca. 2300 personer, og er en del av Seerundersøkelsen</li>
+					</ul>
+					<p><img src="~/img/maaler_Mindre.jpg" alt="måler"></p>
+				</dd>
+				<dt><a href="#" class="accordionTitle">Fakta om Seerundersøkelsen</a></dt>
+				<dd class="accordionItem accordionItemCollapsed">
+					<ul class="accordionul">
+						<li>Seerundersøkelsen gir de offisielle seertallene for Norge. Tallene brukes for planlegging og utforming av et bedre programtilbud. De brukes også som beslutningsgrunnlag for mediebyråer, forskere og TV-produsenter</li>
+						<li>Oppdragsgiver er de norske TV- selskapene, og undersøkelsen gjennomføres av Kantar AS/Norsk Gallup.</li>
+						<li>Vi måler ca. 150 norske og utenlandske TV-kanaler som sendes på vanlig TV</li>
+						<li>Vi måler strømming av TV-innhold på utvalgte nettsteder, se oppdatert liste på <a href="https://kantar.no/vare-paneler/medlemssider-seerundersokelsen/gallupgo-panelet/" onclick="window.open('https://kantar.no/vare-paneler/medlemssider-seerundersokelsen/gallupgo-panelet/')">www.gallupgo.no</a></li>
+					</ul>
+				</dd>
+				<dt><a href="#" class="accordionTitle">Belønning</a></dt>
+				<dd class="accordionItem accordionItemCollapsed">
+					<p>Vi gir deg poeng utfra hvor mye du har med deg GallupGO i løpet av dagen. Jo mer du har med GallupGo, desto flere poeng får du.  </p>
+					<p>
+						Poengene kan samles over tid og veksles i gavekort og gaver i vår nettbutikk for medlemmer. Tilgang til gavebutikken får du når du mottar måleutstyret.
+					</p>
+				</dd>
+				<dt><a href="#" class="accordionTitle">Hva samles inn av data fra min husstand?</a></dt>
+				<dd class="accordionItem accordionItemCollapsed">
+					<p>En gang i døgnet overføres seerdata fra din husstand til oss. Data behandles anonymt og slås sammen med data fra de andre som deltar i undersøkelsen.</p>
+					<p>Vi måler også strømmetjenestene til de største norske mediehusene. Oversikt over disse strømmetjenestene finner du på nettsiden <a href="https://kantar.no/vare-paneler/medlemssider-seerundersokelsen/gallupgo-panelet/" onclick="window.open('https://kantar.no/vare-paneler/medlemssider-seerundersokelsen/gallupgo-panelet/')">www.gallupgo.no</a>. Besøk på andre nettsteder enn de som er i oversikten måler vi ikke.</p>
+				</dd>
+				<dt><a href="#" class="accordionTitle">Personvern</a></dt>
+				<dd class="accordionItem accordionItemCollapsed">
+					<p>Alle i husstanden er sikret full anonymitet. Vi behandler alle persondata konfidensielt og de få personer som behandler informasjonen fra husstandene er underlagt streng taushetsplikt. Seerdata fra din husstand blir slått sammen med data fra de andre deltagerne og blir bare brukt i analyser og statistiske tabeller. Resultatene rapporteres uten personlig informasjon og vi vil aldri offentliggjøre personlige seerdata eller avsløre persondata til medlemmer i undersøkelsen.</p>
+					<p>
+						Du kan les mer om våre personvernregler på medlemssidene <a href="https://kantar.no/vare-paneler/medlemssider-seerundersokelsen/gallupgo-panelet/" onclick="window.open('https://kantar.no/vare-paneler/medlemssider-seerundersokelsen/gallupgo-panelet/')">www.gallupgo.no</a>
+					</p>
+				</dd>
+			</dl>
+		</div>
+	</div>
+
+<script>
+	/*!
+* classie - class helper functions
+* from bonzo https://github.com/ded/bonzo
+/*!
+* classie - class helper functions
+* from bonzo https://github.com/ded/bonzo
+*
+* classie.has( elem, 'my-class' ) -> true/false
+* classie.add( elem, 'my-new-class' )
+* classie.remove( elem, 'my-unwanted-class' )
+* classie.toggle( elem, 'my-class' )
+*/
+
+	/*jshint browser: true, strict: true, undef: true */
+	/*global define: false */
+	(function (window) {
+		'use strict';
+		function classReg(className) {
+			return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
+		}
+		var hasClass, addClass, removeClass;
+
+		if ('classList' in document.documentElement) {
+			hasClass = function (elem, c) {
+				return elem.classList.contains(c);
+			};
+			addClass = function (elem, c) {
+				elem.classList.add(c);
+			};
+			removeClass = function (elem, c) {
+				elem.classList.remove(c);
+			};
+		}
+		else {
+			hasClass = function (elem, c) {
+				return classReg(c).test(elem.className);
+			};
+			addClass = function (elem, c) {
+				if (!hasClass(elem, c)) {
+					elem.className = elem.className + ' ' + c;
+				}
+			};
+			removeClass = function (elem, c) {
+				elem.className = elem.className.replace(classReg(c), ' ');
+			};
+		}
+
+		function toggleClass(elem, c) {
+			var fn = hasClass(elem, c) ? removeClass : addClass;
+			fn(elem, c);
+		}
+		var classie = {
+			hasClass: hasClass,
+			addClass: addClass,
+			removeClass: removeClass,
+			toggleClass: toggleClass,
+			has: hasClass,
+			add: addClass,
+			remove: removeClass,
+			toggle: toggleClass
+		};
+		if (typeof define === 'function' && define.amd) {
+			define(classie);
+		} else {
+			window.classie = classie;
+		}
+	})(window);
+	var $ = function (selector) {
+		return document.querySelector(selector);
+	}
+	var accordion = $('.accordion');
+	accordion.addEventListener("click", function (e) {
+		e.stopPropagation();
+		e.preventDefault();
+		if (e.target && e.target.nodeName == "A") {
+			var classes = e.target.className.split(" ");
+			if (classes) {
+				for (var x = 0; x < classes.length; x++) {
+					if (classes[x] == "accordionTitle") {
+						var title = e.target;
+						var content = e.target.parentNode.nextElementSibling;
+						classie.toggle(title, 'accordionTitleActive');
+						if (classie.has(content, 'accordionItemCollapsed')) {
+							if (classie.has(content, 'animateOut')) {
+								classie.remove(content, 'animateOut');
+							}
+							classie.add(content, 'animateIn');
+						} else {
+							classie.remove(content, 'animateIn');
+							classie.add(content, 'animateOut');
+						}
+						classie.toggle(content, 'accordionItemCollapsed');
+					}
+				}
+			}
+		}
+	});
+
+</script>

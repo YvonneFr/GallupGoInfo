@@ -1,0 +1,373 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.accordion dt > a {
+    text-align: center;
+    font-weight: 700;
+    padding: 2em;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: background-color 0.5s ease-in-out;
+}
+
+.accordion dd {
+    background-color: #715063;
+    color: #fafafa;
+    /*font-size: 1rem;*/
+    line-height: 1.5em;
+}
+
+    .accordion dd > p {
+        padding: 1em 2em 0em 2em;
+        margin-bottom: 0rem;
+    }
+
+        .accordion dd > p:last-child {
+            margin-bottom: 1rem;
+        }
+
+
+
+.accordion {
+    position: relative;
+}
+
+.accordioncontainer {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2em 0 2em 0;
+}
+
+.accordionTitle {
+    background-color: #22313F;
+    border-bottom: 1px solid #2c3e50;
+}
+
+    .accordionTitle:before {
+        content: "+";
+        /*font-size: 1.5em;*/
+        line-height: 0.5em;
+        float: left;
+        -moz-transition: -moz-transform 0.3s ease-in-out;
+        -o-transition: -o-transform 0.3s ease-in-out;
+        -webkit-transition: -webkit-transform 0.3s ease-in-out;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .accordionTitle:hover {
+        background-color: #2c3e50;
+    }
+
+.accordionTitleActive {
+    background-color: #34495e;
+}
+
+    .accordionTitleActive:before {
+        -webkit-transform: rotate(-225deg);
+        -moz-transform: rotate(-225deg);
+        transform: rotate(-225deg);
+    }
+
+.accordionItem {
+    height: auto;
+    overflow: hidden;
+}
+
+@media all {
+    .accordionItem {
+        max-height: 100em;
+        -moz-transition: max-height 1s;
+        -o-transition: max-height 1s;
+        -webkit-transition: max-height 1s;
+        transition: max-height 1s;
+    }
+}
+
+@media screen and (min-width: 48em) {
+    .accordionItem {
+        max-height: 100em;
+        -moz-transition: max-height 0.5s;
+        -o-transition: max-height 0.5s;
+        -webkit-transition: max-height 0.5s;
+        transition: max-height 0.5s;
+    }
+}
+
+.accordionItemCollapsed {
+    max-height: 0;
+}
+
+.animateIn {
+    -webkit-animation-name: accordionIn;
+    -webkit-animation-duration: 0.65s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-direction: normal;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-delay: 0s;
+    -moz-animation-name: normal;
+    -moz-animation-duration: 0.65s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-direction: alternate;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-fill-mode: both;
+    -moz-animation-delay: 0s;
+    animation-name: accordionIn;
+    animation-duration: 0.65s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: 0s;
+}
+
+.animateOut {
+    -webkit-animation-name: accordionOut;
+    -webkit-animation-duration: 0.75s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-delay: 0s;
+    -moz-animation-name: accordionOut;
+    -moz-animation-duration: 0.75s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-direction: alternate;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-fill-mode: both;
+    -moz-animation-delay: 0s;
+    animation-name: accordionOut;
+    animation-duration: 0.75s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: 0s;
+}
+
+@-webkit-keyframes accordionIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+    }
+}
+
+@-moz-keyframes accordionIn {
+    0% {
+        opacity: 0;
+        -moz-transform: scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        -moz-transform: scale(1);
+    }
+}
+
+@keyframes accordionIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes accordionOut {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(0.8);
+    }
+}
+
+@-moz-keyframes accordionOut {
+    0% {
+        opacity: 1;
+        -moz-transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        -moz-transform: scale(0.8);
+    }
+}
+
+@keyframes accordionOut {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+}
+
+.nopaddingtop {
+    padding-top: 0rem;
+}
+
+.accordionul {
+    padding-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+
+#gotitle {
+    color: #826722;
+    padding-top:2rem;
+}
+
+.p description{
+    font-size: 1.5rem;
+}
+
+.logoheader{
+    padding-top:1.5rem;
+}
+/*#kantarlogo{
+    float: left;
+}
+
+#nglogo{
+    float: right;
+}*/
+
+.headerfont {
+    text-align: center;
+    font-weight: 700;
+    font-size:1.3rem;
+    padding: 2em;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #826722;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+}
+
+#logorad {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#nglogo, #kantarlogo{
+    padding-top:1rem;
+    padding-left: 1rem;
+}
+
+a {
+color: #000;
+}
+
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation:portrait) {
+    #nglogo, #kantarlogo {
+        height: 5vh;
+
+    }
+}
+
+
+
+
+
